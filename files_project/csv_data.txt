@@ -1,0 +1,5 @@
+name,age,university,degree
+Akshat,22,SKIT,BTech
+Milind,21,JECRC,BTech
+Harsh,21,JECRC,BTech
+LuckyBuoi,21,SKIT,BTech
