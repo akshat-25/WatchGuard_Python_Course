@@ -3,6 +3,7 @@ def hundred_numbers():
     i=0
     while i<100:
         yield i # By using yield we are making generator and it turns this into a python object
+        
         i += 1
 
 print(hundred_numbers())

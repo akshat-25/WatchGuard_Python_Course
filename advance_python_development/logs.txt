@@ -1,0 +1,12 @@
+2024-01-10 10:37:29,515 INFO:This will not show up
+2024-01-10 10:37:29,515 WARNING:This will...
+2024-01-10 10:37:29,515 CRITICAL:This is critical
+2024-01-10 10:37:29,515 DEBUG:This is debug
+2024-01-10 10:37:43,030 INFO:This will not show up
+2024-01-10 10:37:43,031 WARNING:This will...
+2024-01-10 10:37:43,031 CRITICAL:This is critical
+2024-01-10 10:37:43,031 DEBUG:This is debug
+10-01-2024 INFO:This will not show up
+10-01-2024 WARNING:This will...
+10-01-2024 CRITICAL:This is critical
+10-01-2024 DEBUG:This is debug
