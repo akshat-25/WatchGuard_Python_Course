@@ -9,18 +9,18 @@ class QuoteParser:
         
     @property
     def content(self):
-        locator = QuotesLocators.CONTENT
-        return self.parent.select_one(locator).string
+        locator = QuotesLocators.CONTENT_LOCATOR
+        return self.parent.find_element_by_selector(locator).text
     
     @property
     def author(self):
         locator = QuotesLocators.AUTHOR
-        return self.parent.select_one(locator).string
+        return self.parent.find_element_by_selector(locator).text
     
     @property
     def tags(self):
         locator = QuotesLocators.TAGS
-        return [e.string for e in self.parent.select(locator)]
+        return self.parent.find_element_by_selector(locator)
     
     
     

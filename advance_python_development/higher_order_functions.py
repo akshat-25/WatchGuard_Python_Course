@@ -3,8 +3,7 @@
 
 def greet():
     print("Hello!")
-    
-    
+     
 def before_and_after(func):
     print("Before")
     func()

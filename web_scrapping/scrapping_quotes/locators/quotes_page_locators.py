@@ -1,5 +1,6 @@
 class QuotesLocators:
-    AUTHOR = 'small.author'
-    CONTENT = 'span.text'
-    TAGS = 'div.tags a.tag'
+    QUOTE = "DIV.QUOTE"
+    AUTHOR_DROPDOWN = "select#author"
+    TAG_DROPDOWN = "select#tag"
+    SEARCH_BUTTON = "input[]"
     
