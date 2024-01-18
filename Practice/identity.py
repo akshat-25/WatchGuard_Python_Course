@@ -25,10 +25,16 @@ l2 = [1,2,3,4,5]
 print(id(l1))
 print(id(l2))
 
-
+print(t1)
 t1 = (1,2)
 t2 = (1,2)
 
 
 print(id(t1))
 print(id(t2))
+
+func()
+
+
+def func():
+    print('Hi!')

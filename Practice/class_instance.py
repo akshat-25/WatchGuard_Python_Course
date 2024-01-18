@@ -1,5 +1,5 @@
 class Employee:
-    dept = 'IT'  # class variables/static variable
+    dept = 'IT'  # class variables
     def __init__(self,name,id):
         self.name = name
         self.id = id
@@ -7,15 +7,18 @@ class Employee:
 emp1 = Employee('akshat','101')
 emp2 = Employee('Milind','102')
 
-print(emp1.dept)
-print(emp2.dept)
+# print(emp1.dept)
+# print(emp2.dept)
+# print(emp1.name)
+# print(emp2.name)
+# print(emp1.id)
+# print(emp2.id)
+
 print(emp1.name)
-print(emp2.name)
-print(emp1.id)
-print(emp2.id)
 
 print(Employee.dept)
-emp1.dept = 'Networking'
+emp1.name = 'Networking'
+emp1.dept = "Admin"
 print(emp1.dept)
 print(emp2.dept)
 

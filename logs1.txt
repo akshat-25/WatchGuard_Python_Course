@@ -1,2 +1,0 @@
-11-01-2024 11:16:23 DEBUG    [connectionpool.py:244] Starting new HTTP connection (1): books.toscrape.com:80
-11-01-2024 11:16:25 DEBUG    [connectionpool.py:546] http://books.toscrape.com:80 "GET / HTTP/1.1" 200 51294
