@@ -1,5 +1,5 @@
 # __repr__ method is used to return a string representation of the instance
-# in a format that can be used to recreate the object 
+# in a format that can be used to recreate the object
 
 # __str__ method is used to return a string representation of the instance
 # in a human readable format 
@@ -38,4 +38,3 @@ print(ford.__str__())
 maruti = eval(repr(ford))
 
 print(len(maruti))
-
